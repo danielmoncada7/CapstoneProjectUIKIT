@@ -85,6 +85,7 @@ StudyBuddy is a productivity app that helps students stay on track with their ac
 
 ## Wireframes  
 
+![image](https://github.com/user-attachments/assets/e896ca38-e5f9-42f1-95a4-69f2a3eb5955)
 
 
 
