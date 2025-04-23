@@ -10,6 +10,22 @@
 
 ## Overview
 
+### Videos: 
+<div>
+    <a href="https://www.loom.com/share/a5bbdd7883ed4920af38bee3d375de02">
+    </a>
+    <a href="https://www.loom.com/share/a5bbdd7883ed4920af38bee3d375de02">
+      <img style="max-width:300px;" src="https://cdn.loom.com/sessions/thumbnails/a5bbdd7883ed4920af38bee3d375de02-7ac6e2c31580743a-full-play.gif">
+    </a>
+  </div>
+  <div>
+    <a href="https://www.loom.com/share/568111b4353d46b88f19c690a7f6d857">
+    </a>
+    <a href="https://www.loom.com/share/568111b4353d46b88f19c690a7f6d857">
+      <img style="max-width:300px;" src="https://cdn.loom.com/sessions/thumbnails/568111b4353d46b88f19c690a7f6d857-2adfa7361d9dc1d7-full-play.gif">
+    </a>
+  </div>
+
 ### Description  
 StudyBuddy is a productivity app that helps students stay on track with their academic goals. It allows users to add and view study sessions, track to-dos, and build study streaks to stay motivated. The app also features motivational quotes from an external API to encourage users.
 
@@ -65,9 +81,6 @@ StudyBuddy is a productivity app that helps students stay on track with their ac
 - Add → AddSessionViewController (Add form)  
 - Streak → StreakViewController (Streak tracking)
 
-**Flow Navigation (Screen to Screen)**  
-- AddSessionViewController → SessionDetailViewController (view/edit session)
-
 ---
 
 ## Wireframes  
@@ -77,33 +90,6 @@ StudyBuddy is a productivity app that helps students stay on track with their ac
 
 ---
 
-## [BONUS] Digital Wireframes & Mockups  
-*(Optional: Insert Figma or other mockup links/images here)*
-
----
-
-## [BONUS] Interactive Prototype  
-*(Optional: Add prototype link if created)*
-
----
-
-## Schema  
-*Will be completed later in Unit 9.*
-
-### Models  
-**StudySession**  
-| Property     | Type   | Description                   |  
-|--------------|--------|-------------------------------|  
-| title        | String | Name of the session           |  
-| date         | Date   | When the session happened     |  
-
-**Task**  
-| Property     | Type   | Description                   |  
-|--------------|--------|-------------------------------|  
-| title        | String | To-do item                    |  
-| isComplete   | Bool   | Whether it’s marked as done   |
-
----
 
 ### Networking  
 **Home Screen (Quotes API)**  
@@ -116,7 +102,3 @@ Example request:
 ```swift
 URLSession.shared.dataTask(with: url) { data, _, _ in ... }
 ```
-
---- 
-
-Let me know if you want a `.md` file version too.
